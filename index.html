@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/base.css">
+    <title>MelissaCardenas</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg px-md-4 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Melissa Cárdenas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="./Html/about.html">About</a>
+                        <a class="nav-link" href="./Html/projects.html">Projects</a>
+                        <a class="nav-link" href="./Html/contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-fluid presentation">
+            <div class="row">
+                <div class="col-12 col-md-6 align-self-center py-4 px-md-4 px-lg-5">
+                    <h2 class="mb-4">Hi! I'm Melissa!</h2>
+                    <p>
+                        I'm a Front-End Web Development Student from Costa Rica! I'm still learning but trying my best to be an excellent professional!
+                    </p>
+                    <a class="btn me-2" href="./Html/about.html">About Me</a>
+                    <a class="btn" href="./Html/projects.html">Projects</a>
+                </div>
+                <div class="col col-md-6 py-5 px-5 text-center">
+                    <img class="img-fluid" src="./assets/imgs/undraw_voice_interface_eckp.svg" alt="coding woman">
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid skills py-5 d-md-none">
+            <div class="row text-center">
+                <div class="col pb-5">
+                    <h3>
+                        My Skills
+                    </h3>
+                </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner text-center px-3">
+                    <div class="carousel-item active">
+                        <div class="d-block">
+                            <img src="./assets/logos/Sass.svg" alt="">
+                            <h3>
+                                Sass
+                            </h3>
+                            <p>I can work perfectly with preprocessors like Sass</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block">
+                            <img src="./assets/logos/bootstrap-logo.svg" alt="">
+                            <h3>
+                                Bootstrap
+                            </h3>
+                            <p>
+                                I manage very well the use of Bootstrap. This whole page is made with it!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block">
+                            <img src="./assets/imgs/smartphone.png" alt="">
+                            <h3>
+                                Mobile First
+                            </h3>
+                            <p>
+                                I know how to work with media queries and all my pages are made with the mobile-first strategy!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-55">
+                            <img src="./assets/logos/JavaScript.svg" alt="">
+                            <h3>
+                                JavaScript
+                            </h3>
+                            <p>
+                                Still have a lot to learn but know the basics and can work with Html and JS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="container-fluid skills text-center py-5 d-none d-md-block">
+            <div class="row">
+                <div class="col pb-5">
+                    <h3>
+                        My Skills
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 card-border">
+                    <img src="./assets/logos/Sass.svg" alt="">
+                    <h3>
+                        Sass
+                    </h3>
+                    <p>I can work perfectly with preprocessors like Sass</p>
+                </div>
+                <div class="col-12 col-md-3 card-border">
+                    <img src="./assets/logos/bootstrap-logo.svg" alt="">
+                    <h3>
+                        Bootstrap
+                    </h3>
+                    <p>
+                        I manage very well the use of Bootstrap. This whole page is made with it!
+                    </p>
+                </div>
+                <div class="col-12 col-md-3 card-border">
+                    <img src="./assets/imgs/smartphone.png" alt="">
+                    <h3>
+                        Mobile First
+                    </h3>
+                    <p>
+                        I know how to work with media queries and all my pages are made with the mobile-first strategy!
+                    </p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="./assets/logos/JavaScript.svg" alt="">
+                    <h3>
+                        JavaScript
+                    </h3>
+                    <p>
+                        Still have a lot to learn but know the basics and can work with Html and JS.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="certification container-fluid text-center pb-4">
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn" href="https://www.linkedin.com/in/melissa-cardenas-fley/">Check my certifications!</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bottom">
+        <section class="container-fluid pt-2">
+            <div class="row">
+                <div class="col-4 col-md-8 col-lg-10 d-flex justify-content-around flex-column flex-md-row align-items-md-center px-md-5 ps-3">
+                    <a class="active" href="#">Home</a>
+                    <a href="./Html/about.html">About</a>
+                    <a href="./Html/projects.html">Projects</a>
+                    <a href="./Html/contact.html">Contact</a>
+                </div>
+                <div class="col-8 col-md-4 col-lg-2 align-self-center">
+                    <div>
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/+50685884887">+506 8588 48887</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-at"></i>
+                        <a href="mailto:meli.cf310@gmail.com">meli.cf310@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col">
+                    <p class="m-0 text-center">
+                        <small>2022 Melissa Cárdenas</small>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/42577673b0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
