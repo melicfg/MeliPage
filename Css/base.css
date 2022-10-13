@@ -88,8 +88,13 @@ main {
   color: #FF63F4;
 }
 
-.skills img {
+.skills .logo {
   max-height: 40px;
+}
+
+.skills a .insignia {
+  height: 100px!important;
+  padding-bottom: 10px
 }
 
 .skills .card-border {
